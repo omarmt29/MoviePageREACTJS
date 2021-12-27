@@ -1,0 +1,59 @@
+.footer-container{
+    background-color: #000000;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    width: 100%;
+    flex: row wrap;
+
+}
+
+.videocontenedor{
+    width: 100%;
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 400px);
+    justify-content: center;
+
+}
+.parrafo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   
+}
+
+
+video {
+   border-radius: 2em;
+   display: flex;
+   width: 300px;
+   margin: auto;
+   flex: row wrap;
+}
+.footer-container p {
+    font-weight: 200;
+    color: rgb(187, 187, 187);
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.footer-container h2 {
+    text-align: center;
+    color: rgb(218, 55, 6);
+}
+
+.logofooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.logofooter .camera {
+  font-size: 23px;
+  margin-top: 2px;
+  padding-left: 0.2em;
+}

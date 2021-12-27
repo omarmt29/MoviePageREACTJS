@@ -1,0 +1,34 @@
+[
+    {
+        "id" : "0",
+        "Nombre" : "Omar Mendez",
+        "Matricula" : "18-SISM-1-056",
+        "Instagram" : "https://www.instagram.com/omarmt29/",
+        "Gmail" : "omarmenedzt29@gmail.com",
+        "foto": "https://picsum.photos/536/354"
+    },
+    {
+        "id" : "1",
+        "Nombre" : "Carlos Ramírez",
+        "Matricula" : "16-EIST-1-037",
+        "Instagram" : "https://www.instagram.com/carlos_rt01/",
+        "Gmail" : "Carlosrramirez26@gmail.com",
+        "foto": "https://picsum.photos/536/334"
+    },
+    {
+        "id" : "2",
+        "Nombre" : "Naomy Jimenez",
+        "Matricula" : "19-EISM-1-052",
+        "Instagram" : "https://www.instagram.com/tutunucheck/",
+        "Gmail" : "Naomi_2058@hotmail.com",
+        "foto": "https://picsum.photos/536/355"
+    },
+    {
+        "id" : "3",
+        "Nombre" : "Edward Castillo",
+        "Matricula" : "19-EISM-1-055",
+        "Instagram" : "https://www.instagram.com/edwardcastillo_13/",
+        "Gmail" : "Cuentatemporaledward@gmail.com",
+        "foto": "https://picsum.photos/536/358"
+    }
+]

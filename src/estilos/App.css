@@ -1,0 +1,24 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: rgb(36,8,0);
+    background: linear-gradient(356deg, rgba(36,8,0,1) 31%, rgba(91,16,8,1) 100%, rgba(195,25,4,1) 100%, rgba(255,29,0,1) 100%);   
+    color: white;
+    
+}
+
+
+.principal-contenedor {
+    transition: all 4s;
+    margin: 0px;
+    padding: 0px;
+    background: rgb(0,0,0);
+    background: linear-gradient(356deg, rgba(0,0,0,1) 6%, rgba(38,0,0,1) 26%, rgba(27,6,0,1) 48%, rgba(26,6,0,1) 67%, rgba(26,6,0,1) 70%, rgba(36,8,0,1) 89%, rgba(91,16,8,1) 100%, rgba(70,9,1,1) 100%, rgba(50,7,1,1) 100%);
+    color: white;
+}
+
+.principal-contenedor-light {
+    transition: all 2s;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(356deg, rgb(0, 0, 0) 6%, rgb(78, 78, 78) 26%, rgb(255, 255, 255) 48%, rgb(255, 255, 255) 67%, rgb(226, 226, 226) 70%, rgb(112, 112, 112) 89%, rgb(0, 0, 0) 100%, rgb(0, 0, 0) 100%, rgb(0, 0, 0) 100%);
+}

@@ -1,0 +1,96 @@
+.contenedor-cards {
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    padding-top: 100px;
+    justify-content: center;
+    gap: 5em;
+    margin: auto;
+    
+}
+
+.cards {
+    background-color: #000000;
+    width: 290px;
+    height: 400px;
+    border-radius: 8px;
+    color: white;
+    position: relative;
+}
+
+.cards:hover img {
+    opacity: 0.1;
+    cursor: pointer;
+}
+
+.cards:hover .detalles {
+    display: initial;
+}
+
+.cards:hover .titulos {
+    display: initial;
+}
+
+.cards:hover .categorias {
+    display: initial;
+}
+.cards:hover .voto {
+    display: initial;
+}
+.cards:hover .count {
+    display: initial;
+}
+.cards:hover .voto i {
+    display: initial;
+}
+.cards:hover .count i {
+    display: initial;
+}
+
+.cards img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #dbd8e325;
+    border-radius: 8px;
+}
+
+.detalles {
+    position: absolute;
+    top: 90px;
+    display: none;
+    left: 14px;
+    color: white;
+    font-size: 20px;
+    word-break: break-word;
+    width: 280px;
+    font-weight: 300;
+}
+
+.titulos {
+    position: absolute;
+    top: 0px;
+    display: none;
+    left: 8px;
+    color: white;
+    font-size: 30px;
+    word-break: break-word;
+}
+
+.categorias {
+    position: absolute;
+    top: 330px;
+    display: none;
+    left: 8px;
+    color: rgb(190, 190, 190);
+    font-size: 18px;
+    word-break: break-word;
+    font-weight: 100;
+}
+
+@media (max-width: 380px) {
+    .cards:active .detalles {
+        display: initial;
+    }
+}

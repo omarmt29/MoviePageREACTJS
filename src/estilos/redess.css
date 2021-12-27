@@ -1,0 +1,104 @@
+.redes-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    
+    color: white;
+    width: 100%;  
+}
+
+.contactanos-container-light{
+    background: white;
+}
+
+.h {
+    width: 100%;
+}
+.f{
+    width: 100%;
+    text-align: center;
+  
+}
+
+.tarjetas {
+    background-color: rgb(19, 19, 19);
+    text-align: center;
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-top: solid 1px red;
+    font-weight: 200;
+}
+
+.foto {
+    border-radius: 100%;
+    width: 20%;
+    height: 5em;
+    position: absolute;
+    top: -4em;
+    left: 10em;
+    background-color: red;
+}
+
+.cuadro {
+    margin-top: 13%;
+    width: 70%;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 400px);
+    gap: 7em;
+    justify-content: center;
+    margin-bottom: 20%;
+}
+
+@media (max-width: 1302px) {
+    .cuadro {
+        margin-top: 20%;
+        margin-bottom: 60%;
+    }  
+}
+
+@media (max-width: 1034px) {
+    .cuadro {
+        margin-bottom: 80%;
+    }  
+}
+
+@media (max-width: 818px) {
+    .cuadro {
+        margin-top: 40%;
+        margin-bottom: 100%;
+    }  
+}
+
+@media (max-width: 610px) {
+    .cuadro {
+        margin-top: 40%;
+        margin-bottom: 120%;
+    }  
+}
+
+@media (max-width: 510px) {
+    .cuadro {
+        margin-top: 40%;
+        margin-bottom: 150%;
+    }  
+}
+
+@media (max-width: 403px) {
+    .cuadro {
+        margin-top: 60%;
+        margin-bottom: 200%;
+    }  
+}
+
+@media (max-width: 376px) {
+    .cuadro {
+        margin-top: 40%;
+        margin-bottom: 200%;
+    }  
+}

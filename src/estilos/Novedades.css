@@ -1,0 +1,33 @@
+.voto {
+    position: absolute;
+    top: 330px;
+    left: 220px;
+    color: rgb(190, 190, 190);
+    font-size: 18px;
+    word-break: break-word;
+    font-weight: 100;
+    display: none;
+}
+
+.voto i {
+    color: rgb(251, 255, 22);
+    margin-left: 3px;
+    display: none;
+}
+.count i {
+    color: rgb(19, 243, 19);
+    margin-left: 5px;
+    display: none;
+}
+
+
+.count {
+    position: absolute;
+    top: 330px;
+    left: 140px;
+    color: rgb(190, 190, 190);
+    font-size: 18px;
+    word-break: break-word;
+    font-weight: 100;
+    display: none;
+}
